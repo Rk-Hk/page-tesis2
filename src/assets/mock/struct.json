@@ -1,0 +1,52 @@
+{
+    "title": "",
+    "curso": {
+        "nombre" : "TESIS II",
+        "creditos": "3",
+        "horas": "3h",
+        "ciclo": "X",
+        "periodo":"2020-I",
+        "docente":"Dr. Hugo Vega Huerta"
+    },
+    "sumilla": "Ejecución de la investigación. Tratamiento de datos. Elaboración de resúmenes, cuadros y gráficas. Elaboración de apreciaciones. Elaboración de conclusiones. Presentación del proyecto de Tesis y Sustentación.",
+    "competencia": "Al finalizar la asignatura el estudiante estará en la capacidad de desarrollar trabajos de investigación aplicados en su área de interés, leer, elaborar y redactar artículos científicos, redactar coherentemente su trabajo de tesis, exponer y defender sus trabajos científicos ante la comunidad académica y profesional.",
+
+    "semanas": [
+        {
+            "id": "1",
+            "title" : "Introducción",
+            "descripcion": "Se desarrollo la revisión de los trabajos de tesis de todos los compañeros de clase.",
+            "trabajos": [
+                {
+                    "t-title": "",
+                    "link": ""
+                },
+                {
+                    "t-title": "",
+                    "link": ""
+                }
+            ]
+        },
+        {
+            "id": "2",
+            "title" : "Capitulo 1: Visión del Proyecto",
+            "descripcion": "Se redactara el primer capítulo del trabajo de tesis: 'Visión del proyecto'. Se realiza una descripción de negocio, se define los problemas y los objetivos.",
+            "trabajos": [
+                {
+                    "t-title": "",
+                    "link": ""
+                },
+                {
+                    "t-title": "",
+                    "link": ""
+                }
+            ]
+        }
+    ]
+
+
+
+
+
+
+}

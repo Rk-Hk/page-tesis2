@@ -165,9 +165,6 @@ body{
 	
 }
 
-.cont_general{
-}
-
 #inf_general .encabezado{
 	 text-align: center;
 	 font-size: 16px;
@@ -383,19 +380,7 @@ body{
 
 /*** Proyectos *********/
 
-.img_plantando{
-	/* background: url(./assets/img/plantando.jpg); */
-}
 
-
-.img_proyectotanques{
-	background: url(./assets/img/tanquesarduino.jpg) no-repeat;
-	background-size: 100%;
-}
-
-.img_projectfinal{
-	/* background: url(./assets/img/wallyfinal.jpg); */
-}
 
 .margen-left-20{
 	margin-left: 20px;
@@ -436,10 +421,6 @@ body{
 #id_grupo{
 	text-transform: capitalize;
 
-}
-
-.img_primerproyecto{
-	/* background: url(./assets/img/arduino_robot_shield.jpg) no-repeat; */
 }
 
 .img_projectfinal{
