@@ -1,5 +1,5 @@
 import { Component, OnInit } from '@angular/core';
-// import {HttpClient} from '@angular/common/http';
+import {HttpClient} from '@angular/common/http';
 import { Observable } from 'rxjs';
 
 @Component({
@@ -12,19 +12,21 @@ export class AppComponent implements OnInit{
   pageStruct : any ;
 
   constructor(
-    // private _http: HttpClient
+    private _http: HttpClient
   ) {
     
   }
 
-  // getStruct(){
-  //   this._http.get('./assets/mock/struct.json').pipe().subscribe(data => {
-  //     this.pageStruct = data;
-  //   });
-  // }
+  getStruct(){
+    this._http.get('./assets/mock/struct.json').pipe().subscribe(data => {
+      localStorage.setItem("tesisDetail", JSON.stringify(data));
+      
+      this.pageStruct = data;
+    });
+  }
  
   ngOnInit( ) {
-    // this.getStruct()
+    this.getStruct()
   }
 
 }

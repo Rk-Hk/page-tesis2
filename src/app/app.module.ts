@@ -6,6 +6,7 @@ import { AppComponent } from './app.component';
 import { HeaderComponent } from './components/header/header.component';
 import { FooterComponent } from './components/footer/footer.component';
 import { HomeComponent } from './components/home/home.component';
+import { HttpClientModule } from '@angular/common/http';
 import { DetailCourceComponent } from './components/sub-components/detail-cource/detail-cource.component';
 import { DetailSilaboComponent } from './components/sub-components/detail-silabo/detail-silabo.component';
 
@@ -20,7 +21,8 @@ import { DetailSilaboComponent } from './components/sub-components/detail-silabo
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    HttpClientModule
   ],
   providers: [],
   bootstrap: [AppComponent]

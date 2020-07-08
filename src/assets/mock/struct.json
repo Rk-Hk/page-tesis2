@@ -8,37 +8,50 @@
         "periodo":"2020-I",
         "docente":"Dr. Hugo Vega Huerta"
     },
+    "miembros": [
+        {
+            "name": "Balvin Esteban Raul Ricardo",
+            "drive": "https://drive.google.com/drive/folders/13H8Bc7hIvDB4Hl-tpEjX6t1x1cYy0ENT?usp=sharing",
+            "code": "13200139"
+        },
+        {
+            "name": "Zapata Emil Helmut",
+            "drive": "https://drive.google.com/drive/folders/1dXjTUOVoysDC1a4WdNojpHhegGxRW9xp?usp=sharing",
+            "code": "13200082"
+        }
+    ],
     "sumilla": "Ejecución de la investigación. Tratamiento de datos. Elaboración de resúmenes, cuadros y gráficas. Elaboración de apreciaciones. Elaboración de conclusiones. Presentación del proyecto de Tesis y Sustentación.",
     "competencia": "Al finalizar la asignatura el estudiante estará en la capacidad de desarrollar trabajos de investigación aplicados en su área de interés, leer, elaborar y redactar artículos científicos, redactar coherentemente su trabajo de tesis, exponer y defender sus trabajos científicos ante la comunidad académica y profesional.",
-
-    "semanas": [
+    "groups": [
         {
             "id": "1",
-            "title" : "Introducción",
-            "descripcion": "Se desarrollo la revisión de los trabajos de tesis de todos los compañeros de clase.",
-            "trabajos": [
-                {
-                    "t-title": "",
-                    "link": ""
-                },
-                {
-                    "t-title": "",
-                    "link": ""
-                }
-            ]
+            "url": "#",
+            "integrantes": ["Jaime Ramon Rios Zegarra", "Dennis Sixto Campos Rojas"]
         },
         {
             "id": "2",
-            "title" : "Capitulo 1: Visión del Proyecto",
-            "descripcion": "Se redactara el primer capítulo del trabajo de tesis: 'Visión del proyecto'. Se realiza una descripción de negocio, se define los problemas y los objetivos.",
-            "trabajos": [
+            "url": "#",
+            "integrantes": ["Abraham martinez quesada"]
+        }
+    ],
+    "semanas": [
+        {
+            "id": "1",
+            "title" : "Presentación del Curso"
+        },
+        {
+            "id": "2",
+            "title" : "Capitulo 1: Visión del Proyecto"
+        },
+        {
+            "id": "3",
+            "title" : "Capitulo 1: Visión del Proyecto (Revisión de avances)",
+            "observaciones": [
                 {
-                    "t-title": "",
-                    "link": ""
+                    "detail": "Generar el arbol de problema y el arbol de objetivos"
                 },
                 {
-                    "t-title": "",
-                    "link": ""
+                    "detail": "Generar el arbol de problema y el arbol de objetivos"
                 }
             ]
         }
