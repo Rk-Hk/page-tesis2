@@ -54,6 +54,10 @@
                     "detail": "Generar el arbol de problema y el arbol de objetivos"
                 }
             ]
+        },
+        {
+            "id": "4",
+            "title" : "Capitulo 1: Arbol de problemas y objetivo"
         }
     ]
 
