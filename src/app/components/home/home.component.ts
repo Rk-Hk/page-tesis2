@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import { CursoDetailService } from 'src/app/services/curso-detail.service';
 
 @Component({
   selector: 'app-home',
@@ -7,10 +8,17 @@ import { Component, OnInit } from '@angular/core';
 })
 export class HomeComponent implements OnInit {
   curso:any = null;
-  constructor() { }
+  constructor( private _cursoDetailService: CursoDetailService) { }
 
   ngOnInit() {
-    this.curso = JSON.parse(localStorage.getItem('tesisDetail'))
+    this._cursoDetailService.cursoDetail.subscribe(
+      response => {
+        this.curso = localStorage.getItem('tesisDetail') ? JSON.parse(localStorage.getItem('tesisDetail')): response;
+      }
+    )
+    
+    console.log("CURSO : ", this.curso);
+    
   }
 
 }

@@ -1,3 +1,3 @@
 <app-detail-cource></app-detail-cource>
 
-<app-detail-silabo [semanas]="curso.semanas" [groups]="curso.groups" [members]="curso.miembros"></app-detail-silabo>
+<app-detail-silabo *ngIf="curso" [semanas]="curso.semanas" [groups]="curso.groups" [members]="curso.miembros"></app-detail-silabo>

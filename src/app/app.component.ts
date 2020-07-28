@@ -1,6 +1,5 @@
 import { Component, OnInit } from '@angular/core';
-import {HttpClient} from '@angular/common/http';
-import { Observable } from 'rxjs';
+import { CursoDetailService } from './services/curso-detail.service';
 
 @Component({
   selector: 'app-root',
@@ -11,22 +10,18 @@ export class AppComponent implements OnInit{
   title = 'page-tesisII';
   pageStruct : any ;
 
-  constructor(
-    private _http: HttpClient
-  ) {
-    
+  constructor( private _cursoDetailService: CursoDetailService) {
+
   }
 
-  getStruct(){
-    this._http.get('./assets/mock/struct.json').pipe().subscribe(data => {
-      localStorage.setItem("tesisDetail", JSON.stringify(data));
-      
-      this.pageStruct = data;
-    });
-  }
+  
  
   ngOnInit( ) {
-    this.getStruct()
+    this._cursoDetailService.getCurso().subscribe(
+      response => {
+        this._cursoDetailService.setCursoSelected(response);
+      },
+      error => console.log("ERROR GET DETAIL : ", error)
+    )
   }
-
 }
